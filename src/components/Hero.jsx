@@ -133,7 +133,7 @@ export default function Hero() {
                 {/* Portrait Image Frame — Medium balanced dimension */}
                 <div className="relative w-full h-[360px] sm:h-[410px] rounded-[18px] overflow-hidden bg-bg-surface border border-border-subtle">
                   <img
-                    src="/harpreet_portrait.png"
+                    src={`${import.meta.env.BASE_URL}harpreet_portrait.png`}
                     alt="Harpreet Singh — Full-Stack Laravel Developer"
                     className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
                   />
