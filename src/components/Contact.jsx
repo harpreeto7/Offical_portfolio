@@ -6,7 +6,7 @@ export default function Contact() {
   const [status, setStatus] = useState(null);
   const [copied, setCopied] = useState(false);
 
-  const emailAddress = "harpreetm1862@gmail.com";
+  const emailAddress = "harpreet001233@gmail.com";
 
   const handleSubmit = (e) => {
     e.preventDefault();

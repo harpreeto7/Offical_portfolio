@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowUpRight, Database, Server, Cpu, Code, ShieldCheck, Layers, Terminal, Activity, Zap } from 'lucide-react';
+import harpreetPortrait from '../assets/harpreet_portrait.png';
 
 export default function Hero() {
   return (
@@ -133,7 +134,7 @@ export default function Hero() {
                 {/* Portrait Image Frame — Medium balanced dimension */}
                 <div className="relative w-full h-[360px] sm:h-[410px] rounded-[18px] overflow-hidden bg-bg-surface border border-border-subtle">
                   <img
-                    src={`${import.meta.env.BASE_URL}harpreet_portrait.png`}
+                    src={harpreetPortrait}
                     alt="Harpreet Singh — Full-Stack Laravel Developer"
                     className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
                   />
